@@ -141,24 +141,39 @@ a:hover{
   }
 }
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 70%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
 
 h1 {
   font-family: 'Barlow Condensed', sans-serif;
-  background: transparent;
   text-align: center;
   text-shadow: #996060;
   font-size: 60;
+  background-color: #b86a6a
   }
 h2 {
   font-family: 'Comfortaa', cursive;
-  background: transparent;
+  background-color: #b86a6a;
   text-align: center;
   text-shadow: #996060;
   font-size: 20;
 }
 body {
   background-color: #b86a6a;
-
 }
 .center {
   display: block;
