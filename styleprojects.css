@@ -189,3 +189,7 @@ a {
   height: 640;
   width: 480;
 }
+
+.animate__animated.animate__rollin {
+  --animate-duration: 1.2s;
+}
