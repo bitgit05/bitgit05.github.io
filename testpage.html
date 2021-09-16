@@ -1,0 +1,22 @@
+<h1>test</h1>
+<script>
+	var path = new Path.Rectangle(new Point(80, 50), new Size(100, 50));
+		path.style = {
+			fillColor: 'white',
+			strokeColor: 'black'
+		};
+
+
+	// Create a copy of the path and set its stroke color to red:
+	ar copy = path.clone();
+	copy.strokeColor = 'red';
+
+	// Save the bottom left position of the path's bounding box:
+	var point = copy.bounds.bottomLeft;
+
+	function onFrame(event) {
+		// Each frame, rotate the path 3 degrees around the point
+		// we defined earlier:
+			copy.rotate(3, point);
+	}
+</script>

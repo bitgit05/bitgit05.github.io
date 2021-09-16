@@ -180,3 +180,13 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
+a:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+a {
+  height: 640;
+  width: 480;
+}

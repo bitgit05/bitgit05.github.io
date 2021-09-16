@@ -1,0 +1,56 @@
+p {
+  font-family: 'Comfortaa', cursive;
+  font-size:15px;
+}
+h2 {
+  font-family: 'Comfortaa', cursive;
+  font-size:25px;
+}
+h4 {
+  font-family: 'Comfortaa', cursive;
+  font-size:15px;
+}
+div {
+  font-family: 'Cabin Sketch', cursive;
+  height: 400px;
+  font-size: 20px;
+  background-size: 600px;
+  background-position: center;
+  position: relative;
+  margin: 0 0 40 px 0;
+  background-repeat: no-repeat;
+}
+body {
+  background: wheat;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+img {
+  margin: 0 auto;
+  flex-wrap: wrap;
+  transition: 0.2s;
+}
+
+img:active {
+  transform: scale(1.2);
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0%;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+  img {
+    width: 50%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    transition: 0.2s;
+    animation-duration: 0.3s;
+    animation-name: fadeIn;
+  }
+}
